@@ -101,6 +101,8 @@ function clearTimer () {
     minus.disabled = false; 
     submit.disabled = false;
     pause.textContent = "pause";
+    likes.innerHTML="";
+    commentList.innerHTML="";
 }
 
 resetButton.addEventListener('click', clearTimer);
